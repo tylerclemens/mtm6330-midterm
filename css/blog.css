@@ -3,9 +3,9 @@
  */
 
 @media (min-width: 45em) {
-  html {
-    font-size: 18px;
-  }
+    html {
+        font-size: 18px;
+    }
     .background {
         width: 90%;
     }
@@ -13,10 +13,9 @@
 
 body {
     vertical-align: middle;
-  font-family: Georgia, "Agency FB", Times, serif;
-  color: #e6e6e6;
-  background-color: black;
-  
+    font-family: 'Poppins', sans-serif;
+    color: #e6e6e6;
+    background-color: black;
 }
 
 h1, .h1,
@@ -25,78 +24,94 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Raider Crusader";
-  font-weight: normal;
-  color: #E6E6E6;
+    font-family: "Raider Crusader";
+    font-weight: normal;
+    color: #E6E6E6;
 }
 
-iframe {
-    
+
+
+h2 {
+    text-align: center;
+    font-size: 2.7rem;
+    padding-bottom: 30px;
 }
+
+
 /*
  * Override Bootstrap's default container.
  */
 
 .container {
-  max-width: 60rem;
+    max-width: 60rem;
 }
+
 .background {
     margin: auto;
-    background-color: #1A1A1A;
+    background-position:center;
+    background-color: dodgerblue;
+    background-blend-mode: multiply;
+    background-image: url(/images/hex2.png);
+    background-attachment: fixed;
+    background-size: contain;
     width: 100%;
     vertical-align: middle;
-    
-
 }
+
 
 /*
  * Masthead for nav
- */     
+ */
 
 .blog-masthead {
-  text-align: center;
-  margin-bottom: .25rem;
-  background-color: #333333;
-  -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.5);
-          box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.5);
+    text-align: center;
+    margin-bottom: .25rem;
+    background-color: #333333;
+    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .5);
     background-image: url(/images/grid.jpg);
     background-position: top;
-          
+    border-bottom: .2rem groove lightblue;
 }
 
+
 /* Nav links */
+
 .nav-link {
-  margin: 0 auto;
-  position: relative;
-  padding: 1rem;
-  font-weight: 500;
-  font-family: Raider Crusader;
-  font-size: 1.5rem;
-  color: #cdddeb;
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem;
+    font-weight: 500;
+    font-family: Raider Crusader;
+    font-size: 1.5rem;
+    color: #cdddeb;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #fff;
-  background-color: transparent;
+    color: #fff;
+    background-color: transparent;
 }
 
+
 /* Active state gets a caret at the bottom */
+
 .nav-link.active {
-  color: lightblue;
+    color: lightblue;
 }
+
 .nav-link.active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -.3rem;
-  vertical-align: middle;
-  content: "";
-  border-right: .8rem solid transparent;
-  border-bottom: .8rem solid;
-  border-left: .8rem solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -.3rem;
+    vertical-align: middle;
+    content: "";
+    border-right: .8rem solid transparent;
+    border-bottom: .8rem solid;
+    border-left: .8rem solid transparent;
     color: royalblue;
 }
 
@@ -106,83 +121,93 @@ iframe {
  */
 
 .blog-header {
-  padding-bottom: rem;
-  padding-top: 2.25rem;
+    padding-top: 2.25rem;
     border-bottom: .0rem solid #333333;
 }
+
 .blog-title {
-  margin-bottom: 0;
-  font-size: 2.5rem;
-  font-weight: normal;
-  
-}
-.blog-title:hover {
-text-decoration: none;
-}
-.blog-description {
-  font-size: 1.1rem;
-  color: #999;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
+.blog-title:hover {
+    text-decoration: none;
+}
+
+.blog-description {
+    font-size: 1.1rem;
+    color: #999;
+}
+
+
+
 @media (min-width: 40em) {
-  .blog-title {
-    font-size: 5rem;
-  }
+    .blog-title {
+        font-size: 5rem;
+    }
     iframe {
-        margin: none;
+       height: 230px;
+       width: 400px;
+        vertical-align:center;
     }
     .background {
-        width: 65%;
+        
     }
     .sidebar-module {
         margin-top: 50px;
     }
+    .sidebar-module-inset {
+        width: 400px;
+    }
     .nav-link {
         font-size: 2rem;
     }
+    .videoembed {
+        Height: 315px; 
+        width: 560px;
+    }
+    .chat_embed {
+        height: 500px;
+        min-width: 400px;
+        vertical-align:center;
+            
+    }
+    
 }
-
 
 /*
  * Main column and sidebar layout
  */
 
+
 /* Sidebar modules for boxing content */
+
 .sidebar-module {
-  padding: 1rem;
-    margin-top: 10px;
+    
     text-align: center;
-    
-  /*margin: 0 -1rem 1rem;*/
+    vertical-align: center;
+    /*margin: 0 -1rem 1rem;*/
 }
+
 .sidebar-module-inset {
-  padding: 0rem;
-  background-color: #333333;
-  border-radius: .25rem;
-    width: 367px;
-    
-    border-style: outset;
-    
-    
+
 }
+
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
-  margin-bottom: 0;
-    
+    margin-bottom: 0;
 }
-
-iframe {
-    margin: 0 auto;
-}
-
 
 /* Pagination */
+
 .blog-pagination {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
+
 .blog-pagination > .btn {
-  border-radius: 2rem;
+    border-radius: 2rem;
 }
 
 
@@ -191,31 +216,49 @@ iframe {
  */
 
 .blog-post {
-  margin-bottom: 4rem;
+    margin-top: 10px;
+    margin-bottom: 4rem;
+    background-image: url(/images/paint-navy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
+
 .blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
+    margin-bottom: .25rem;
+    font-size: 1.5rem;
 }
+
 .blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
+    margin-bottom: 1.25rem;
+    color: #999;
 }
 
+.twitch_subwindow_container .twitch_subwindow {
+    max-width: 100%;
+}
+.auth_modal iframe {
+  min-width: 200px;
+}
 
+body.kraken-embed {
+  max-width: 100%;
+}
 /*
  * Footer
  */
 
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  background-color: #333333;
-  border-top: .2rem solid #e5e5e5;
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #333333;
+    border-top: .2rem solid lightblue;
     background-image: url(/images/grid.jpg);
     background-position: bottom;
+    width: 100%;
 }
+
 .blog-footer p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
