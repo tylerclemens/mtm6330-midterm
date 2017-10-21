@@ -34,9 +34,12 @@ h6, .h6 {
 h2 {
     text-align: center;
     font-size: 2.7rem;
-    padding-bottom: 30px;
+    padding: 40px;
 }
 
+h4 {
+    font-size: 2rem;
+}
 
 /*
  * Override Bootstrap's default container.
@@ -45,7 +48,6 @@ h2 {
 .container {
     max-width: 60rem;
 }
-
 .background {
     margin: auto;
     background-position:center;
@@ -151,14 +153,14 @@ h2 {
        width: 400px;
         vertical-align:center;
     }
-    .background {
-        
-    }
-    .sidebar-module {
+    .sidebar-module, .sidebar-module-twitter {
         margin-top: 50px;
     }
     .sidebar-module-inset {
         width: 400px;
+    }
+    .sidebar-module-twitter {
+	    width: 400px;
     }
     .nav-link {
         font-size: 2rem;
@@ -184,14 +186,14 @@ h2 {
 /* Sidebar modules for boxing content */
 
 .sidebar-module {
-    
     text-align: center;
     vertical-align: center;
     /*margin: 0 -1rem 1rem;*/
 }
-
-.sidebar-module-inset {
-
+.sidebar-module-twitter {
+    text-align: center;
+    vertical-align: center;
+    margin-top: 20px;
 }
 
 .sidebar-module-inset p:last-child,
@@ -234,16 +236,6 @@ h2 {
     color: #999;
 }
 
-.twitch_subwindow_container .twitch_subwindow {
-    max-width: 100%;
-}
-.auth_modal iframe {
-  min-width: 200px;
-}
-
-body.kraken-embed {
-  max-width: 100%;
-}
 /*
  * Footer
  */
