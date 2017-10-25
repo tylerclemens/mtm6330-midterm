@@ -11,8 +11,8 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="css/blog.css" rel="stylesheet">
-    <link href="http://www-cdn.jtvnw.net/assets/application-0c1320fa15ef4f572f9da3c247daec7e.css" rel="stylesheet"> </head>
+    <link href="http://www-cdn.jtvnw.net/assets/application-0c1320fa15ef4f572f9da3c247daec7e.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet"> </head>
 
 <body>
     <div class="blog-masthead">
@@ -23,65 +23,112 @@
             </div>
         </div>
         <div class="container">
-            <nav class="nav"> 
-                <a class="nav-link" href="Videos.html">Videos</a> 
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link active" href="Donate.html">Donate</a> </nav>
+            <nav class="nav"> <a class="nav-link" href="Videos.html">Videos</a> <a class="nav-link" href="about.html">About</a> <a class="nav-link active" href="Donate.html">Donate</a> </nav>
         </div>
     </div>
     <div class="background">
-        <div class="container">
-                    <h2>Videos</h2>
-                      <div class="blog-post">
+        <div class="container-fluid">
+            <h2>Videos</h2>
+            <div class="row">
+                <div class="col-sm-4" id="col1">
+                    <div class="blog-post">
                         <h5 class="blog-post-title">Playstation 1 Classics!</h5>
                         <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
-                        <iframe class="videoembed" width="" height="" src="https://www.youtube.com/embed/EvMEBJw3wW8" frameborder="0" allowfullscreen></iframe>
+                        <div class="videowrapper">
+                        <iframe class="videoembed container-fluid" width="" height="" src="https://www.youtube.com/embed/EvMEBJw3wW8" frameborder="0" allowfullscreen></iframe>
+                        </div>
                         <p class="video-description">Rayman 2, Spyro the Dragon, and Mega-Man Legends!.</p>
                     </div>
+                </div>
+                  <div class="col-sm-4" id="col2">
+                    <div class="blog-post">
+                        <h5 class="blog-post-title">Ape Escape stream (ps1)</h5>
+                        <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
+                         <div class="videowrapper"><iframe width="" height="" src="https://www.youtube.com/embed/bWyPaJFrMc4" frameborder="0" allowfullscreen></iframe></div>
+                        <p class="video-description">Stop monkeying around!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4" id="col2">
                     <div class="blog-post">
                         <h5 class="blog-post-title">Black Ops 3 Zombies | Kino Der Toten Livestream</h5>
                         <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
-                        <iframe class="videoembed" width="" height="" src="https://www.youtube.com/embed/O9TvoM1XTmo" frameborder="0" allowfullscreen></iframe>
+                         <div class="videowrapper"><iframe class="videoembed container-fluid" width="" height="" src="https://www.youtube.com/embed/O9TvoM1XTmo" frameborder="0" allowfullscreen></iframe></div>
                         <p class="video-description">Kicking zombie A** in Kino Der Toten! Streamed live on September 10th, 2017.</p>
                     </div>
-                    <!-- /.blog-post -->
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-4" id="col3">
                     <div class="blog-post">
                         <h5 class="blog-post-title">GOT BANNED FROM TWITCH | A furry goes on omegle | #3 UNEDITED</h5>
                         <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
-                        <iframe class="videoembed" width="" height="" src="https://www.youtube.com/embed/0bibS9VfMcM" frameborder="0" allowfullscreen></iframe>
-                        <p class="video-description">Kicking zombie A** in Kino Der Toten! Streamed live on September 10th, 2017.</p>
+                         <div class="videowrapper"><iframe class="videoembed container-fluid" width="" height="" src="https://www.youtube.com/embed/0bibS9VfMcM" frameborder="0" allowfullscreen></iframe></div>
+                        <p class="video-description">Apparently twitch doesn't like people streaming omegle.</p>
                     </div>
-                    <!-- /.blog-post -->
+                </div>
+                <div class="col-sm-4">
                     <div class="blog-post">
                         <h5 class="blog-post-title">Witness Me! | Observer | Part 2</h5>
                         <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
-                        <iframe class="videoembed" width="" height="" src="https://www.youtube.com/embed/_Vhif7rxqwU" frameborder="0" allowfullscreen></iframe>
-                        <p class="video-description">Kicking zombie A** in Kino Der Toten! Streamed live on September 10th, 2017.</p>
+                         <div class="videowrapper"><iframe class="videoembed container-fluid" width="" height="" src="https://www.youtube.com/embed/_Vhif7rxqwU" frameborder="0" allowfullscreen></iframe></div>
+                        <p class="video-description">This whole game is a long journey in confusion, thats for sure.</p>
                     </div>
-                  
-                    
-                    <!-- /.blog-post -->
-                    <nav class="blog-pagination"> <a class="btn btn-outline-primary" href="#">Older</a> <a class="btn btn-outline-secondary disabled" href="#">Newer</a> </nav>
                 </div>
-                
-                <!-- /.blog-main -->
-                
-                <!-- TWITCH FEED -->
-              
-                <!-- /.row -->
+                <div class="col-sm-4">
+                    <div class="blog-post">
+                        <h5 class="blog-post-title">Playstation 1 Classics!</h5>
+                        <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
+                        <div class="videowrapper"><iframe width="" height="" src="https://www.youtube.com/embed/Gdeds9HzFf0" frameborder="0" allowfullscreen></iframe></div>
+                        <p class="video-description">Rayman 2, Spyro the Dragon, and Mega-Man Legends!.</p>
+                    </div>
+                </div>
             </div>
-            <!-- /.container -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="blog-post">
+                        <h5 class="blog-post-title">Playstation 1 Classics!</h5>
+                        <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
+                        <div class="videowrapper"></div>
+                        <p class="video-description">Rayman 2, Spyro the Dragon, and Mega-Man Legends!.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="blog-post">
+                        <h5 class="blog-post-title">Playstation 1 Classics!</h5>
+                        <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
+                        <div class="videowrapper"></div>
+                        <p class="video-description">Rayman 2, Spyro the Dragon, and Mega-Man Legends!.</p>
+                    </div>
+                </div>
+               <div class="col-sm-4">
+                    <div class="blog-post">
+                        <h5 class="blog-post-title">Playstation 1 Classics!</h5>
+                        <p class="blog-post-meta">October 19th, by <a href="#">Muro The Lynx</a></p>
+                        <div class="videowrapper"></div>
+                        <p class="video-description">Rayman 2, Spyro the Dragon, and Mega-Man Legends!.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <footer class="blog-footer">
-            <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            <p> <a href="#">Back to top</a> </p>
-        </footer>
-        <!-- Bootstrap core JavaScript
+        <!-- /.blog-post -->
+        <nav class="blog-pagination"> <a class="btn btn-outline-primary" href="#">Older</a> <a class="btn btn-outline-secondary disabled" href="#">Newer</a> </nav>
+    </div>
+    <!-- /.blog-main -->
+    <!-- TWITCH FEED -->
+    <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    </div>
+    <footer class="blog-footer">
+        <p>Blog template built for <a href="https://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p> <a href="#">Back to top</a> </p>
+    </footer>
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 
 </html>
