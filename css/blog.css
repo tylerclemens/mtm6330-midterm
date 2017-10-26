@@ -183,6 +183,9 @@ h4 {
         Height: 300px;
         width: 560px;
     }
+    .video-description {
+        margin-top: 1rem;
+    }
     .chat_embed {
         height: 500px;
         min-width: 400px;
@@ -259,6 +262,7 @@ h4 {
 
 .blog-post-title {
     margin-bottom: .25rem;
+    margin-top: 4rem;
     font-size: 1.5rem;
 }
 
