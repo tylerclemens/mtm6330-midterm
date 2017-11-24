@@ -1,0 +1,294 @@
+@import 'custom';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+/*
+ * Globals
+ */
+/*
+@media (min-width: 45em) {
+    html {
+        font-size: 18px;
+    }
+    .background {
+        width: 90%;
+    }
+}
+*/
+body {
+    vertical-align: middle;
+    font-family: 'Poppins', sans-serif;
+    color: #e6e6e6;
+    background-color: black;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: "Raider Crusader";
+    font-weight: normal;
+    color: #E6E6E6;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 2.7rem;
+    padding: 40px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+
+.background {
+    margin: auto;
+    background-position:center;
+    background-color: dodgerblue;
+    background-blend-mode: multiply;
+    background-image: url(/img/hex2.png);
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+    text-align: center;
+    margin-bottom: .25rem;
+    background-color: #333333;
+    -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .5);
+    background-image: url(/img/grid.jpg);
+    background-position: top;
+    border-bottom: .2rem groove lightblue;
+}
+
+
+/* Nav links */
+
+.nav-link {
+    margin: 0 auto;
+    position: relative;
+    padding: 1rem;
+    font-weight: 500;
+    font-family: Raider Crusader;
+    font-size: 1.5rem;
+    color: #cdddeb;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+/* Active state gets a caret at the bottom */
+
+.nav-link.active {
+    color: lightblue;
+}
+
+.nav-link.active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -.3rem;
+    vertical-align: middle;
+    content: "";
+    border-right: .8rem solid transparent;
+    border-bottom: .8rem solid;
+    border-left: .8rem solid transparent;
+    color: royalblue;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-top: 2.25rem;
+    border-bottom: .0rem solid #333333;
+    
+}
+
+.blog-title {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.blog-title:hover {
+    text-decoration: none;
+}
+
+.blog-description {
+    font-size: 1.1rem;
+    color: #999;
+}
+
+
+
+@media (min-width: 40em) {
+    .blog-title {
+        font-size: 5rem;
+    }
+    .row {
+        align-content: center;
+        column-count: 3;
+    }
+    .blog-post {
+}
+    .blog-post-title{
+        max-width: 560px;
+    }
+    
+    #col1{
+        float:left;
+    }
+    .container-fluid {
+    }
+    iframe {
+       height: 230px;
+       width: 400px; 
+  
+    }
+    .sidebar-module, .sidebar-module-twitter {
+        margin-top: 50px;
+    }
+    .sidebar-module-inset {
+        width: 400px;
+    }
+    .sidebar-module-twitter {
+	    width: 400px;
+    }
+    .nav-link {
+        font-size: 2rem;
+    }
+    .videoembed {
+        Height: 300px;
+        width: 560px;
+    }
+    .video-description {
+        margin-top: 1rem;
+    }
+    .chat_embed {
+        height: 500px;
+        min-width: 400px;
+        vertical-align:center;
+
+    }
+
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+.video {
+    width: 560px;  
+}
+
+/* Sidebar modules for boxing content */
+
+.sidebar-module {
+    text-align: center;
+    vertical-align: center;
+    /*margin: 0 -1rem 1rem;*/
+}
+.sidebar-module-twitter {
+    text-align: center;
+    vertical-align: center;
+    margin-top: 20px;
+}
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+/* Pagination */
+
+.blog-pagination {
+    margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+    border-radius: 2rem;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    background-image: url(/img/paint-navy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #333333;
+  border-top: .2rem solid lightblue;
+  background-image: url(/images/grid.jpg);
+  background-position: bottom;
+    width: 100%;}
+  p:last-child {
+    margin-bottom: 0;
+  }
+
