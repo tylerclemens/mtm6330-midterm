@@ -272,21 +272,3 @@ h4 {
     color: #999;
 }
 
-/*
- * Footer
- */
-
-.blog-footer {
-    padding: 2.5rem 0;
-    color: #999;
-    text-align: center;
-    background-color: #333333;
-    border-top: .2rem solid lightblue;
-    background-image: url(/images/grid.jpg);
-    background-position: bottom;
-    width: 100%;
-}
-
-.blog-footer p:last-child {
-    margin-bottom: 0;
-}
