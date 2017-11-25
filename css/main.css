@@ -5577,14 +5577,14 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Raider Crusader";
+  font-family: 'Changa', bold;
   font-weight: normal;
   color: #E6E6E6; }
 
 h2 {
   text-align: center;
   font-size: 2.7rem;
-  padding: 40px; }
+  padding-top: 40px; }
 
 h4 {
   font-size: 2rem; }
@@ -5623,7 +5623,7 @@ h4 {
   position: relative;
   padding: 1rem;
   font-weight: 500;
-  font-family: Raider Crusader;
+  font-family: 'Stalinist one', cursive;
   font-size: 1.5rem;
   color: #cdddeb; }
 
@@ -5660,7 +5660,8 @@ h4 {
 .blog-title {
   margin-bottom: 0;
   font-size: 2.5rem;
-  font-weight: normal; }
+  font-weight: normal;
+  font-family: 'stalinist one', cursive; }
 
 .blog-title:hover {
   text-decoration: none; }
@@ -5684,9 +5685,7 @@ h4 {
     width: 400px; }
   .sidebar-module, .sidebar-module-twitter {
     margin-top: 50px; }
-  .sidebar-module-inset {
-    width: 400px; }
-  .sidebar-module-twitter {
+  .sidebar-module-inset, .sidebar-module-twitter {
     width: 400px; }
   .nav-link {
     font-size: 2rem; }
@@ -5752,11 +5751,12 @@ h4 {
   background-image: url(/img/paint-navy.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center; }
+  background-position: center;
+  margin-bottom: 2rem; }
 
 .blog-post-title {
   margin-bottom: .25rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-size: 1.5rem; }
 
 .blog-post-meta {
@@ -5772,9 +5772,8 @@ h4 {
   text-align: center;
   background-color: #333333;
   border-top: .2rem solid lightblue;
-  background-image: url(/images/grid.jpg);
+  background-image: url(/img/grid.jpg);
   background-position: bottom;
   width: 100%; }
-
-p:last-child {
-  margin-bottom: 0; }
+  .blog-footer p:last-child {
+    margin-bottom: 0; }

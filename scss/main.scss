@@ -27,7 +27,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-    font-family: "Raider Crusader";
+    font-family: 'Changa', bold;
     font-weight: normal;
     color: #E6E6E6;
 }
@@ -37,7 +37,7 @@ h6, .h6 {
 h2 {
     text-align: center;
     font-size: 2.7rem;
-    padding: 40px;
+    padding-top: 40px;
 }
 
 h4 {
@@ -86,7 +86,7 @@ h4 {
     position: relative;
     padding: 1rem;
     font-weight: 500;
-    font-family: Raider Crusader;
+    font-family: 'Stalinist one', cursive;
     font-size: 1.5rem;
     color: #cdddeb;
 }
@@ -134,6 +134,7 @@ h4 {
     margin-bottom: 0;
     font-size: 2.5rem;
     font-weight: normal;
+    font-family: 'stalinist one', cursive;
 }
 
 .blog-title:hover {
@@ -145,60 +146,48 @@ h4 {
     color: #999;
 }
 
-
-
 @media (min-width: 40em) {
-    .blog-title {
-        font-size: 5rem;
-    }
-    .row {
-        align-content: center;
-        column-count: 3;
-    }
-    .blog-post {
+  .blog-title {
+    font-size: 5rem;
+  }
+  .row {
+    align-content: center;
+    column-count: 3;
+  }
+  .blog-post {}
+  .blog-post-title {
+    max-width: 560px;
+  }
+  #col1 {
+    float: left;
+  }
+  .container-fluid {}
+  iframe {
+    height: 230px;
+    width: 400px;
+  }
+  .sidebar-module, .sidebar-module-twitter {
+    margin-top: 50px;
+  }
+  .sidebar-module-inset, .sidebar-module-twitter {
+    width: 400px;
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+  .videoembed {
+    Height: 300px;
+    width: 560px;
+  }
+  .video-description {
+    margin-top: 1rem;
+  }
+  .chat_embed {
+    height: 500px;
+    min-width: 400px;
+    vertical-align: center;
+  }
 }
-    .blog-post-title{
-        max-width: 560px;
-    }
-    
-    #col1{
-        float:left;
-    }
-    .container-fluid {
-    }
-    iframe {
-       height: 230px;
-       width: 400px; 
-  
-    }
-    .sidebar-module, .sidebar-module-twitter {
-        margin-top: 50px;
-    }
-    .sidebar-module-inset {
-        width: 400px;
-    }
-    .sidebar-module-twitter {
-	    width: 400px;
-    }
-    .nav-link {
-        font-size: 2rem;
-    }
-    .videoembed {
-        Height: 300px;
-        width: 560px;
-    }
-    .video-description {
-        margin-top: 1rem;
-    }
-    .chat_embed {
-        height: 500px;
-        min-width: 400px;
-        vertical-align:center;
-
-    }
-
-}
-
 .videowrapper {
     float: none;
     clear: both;
@@ -262,11 +251,12 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    margin-bottom: 2rem;
 }
 
 .blog-post-title {
     margin-bottom: .25rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
     font-size: 1.5rem;
 }
 
@@ -285,10 +275,10 @@ h4 {
   text-align: center;
   background-color: #333333;
   border-top: .2rem solid lightblue;
-  background-image: url(/images/grid.jpg);
+  background-image: url(/img/grid.jpg);
   background-position: bottom;
-    width: 100%;}
+  width: 100%;
   p:last-child {
     margin-bottom: 0;
   }
-
+}
