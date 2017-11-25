@@ -166,15 +166,21 @@ h4 {
   }
   .container-fluid {}
   .blog-sidebar {
-    height: 600px;
-    width: 72%;
-    margin: 0 auto;
+    align-items: center;
+    
+    height: 640px;
+    
     //width: 108.7%;
   }
+    .twitchandchat {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1366px;
+        height: 544px;
+    }
   .twitch{
     height:544px;
-    
-    width:70.5%;
+    width:966px;
   }
   .sidebar-module, .sidebar-module-twitter {
     margin-top: 50px;
