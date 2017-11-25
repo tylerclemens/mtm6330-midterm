@@ -37,11 +37,13 @@ h6, .h6 {
 h2 {
     text-align: center;
     font-size: 2.7rem;
-    padding-top: 40px;
+    padding-top: 5rem;
 }
 
 h4 {
-    font-size: 2rem;
+    padding-top : 2rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 /*
@@ -146,6 +148,7 @@ h4 {
     color: #999;
 }
 
+
 @media (min-width: 40em) {
   .blog-title {
     font-size: 5rem;
@@ -162,9 +165,16 @@ h4 {
     float: left;
   }
   .container-fluid {}
-  iframe {
-    height: 230px;
-    width: 400px;
+  .blog-sidebar {
+    height: 580px;
+    width: 68%;
+    margin: 0 auto;
+    //width: 108.7%;
+  }
+  .twitch{
+    height:500px;
+    
+    width:68.5%;
   }
   .sidebar-module, .sidebar-module-twitter {
     margin-top: 50px;
