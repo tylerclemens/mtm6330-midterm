@@ -37,7 +37,7 @@ h6, .h6 {
 h2 {
     text-align: center;
     font-size: 2.7rem;
-    padding-top: 5rem;
+    padding-top: 3.5rem;
 }
 
 h4 {
@@ -166,15 +166,15 @@ h4 {
   }
   .container-fluid {}
   .blog-sidebar {
-    height: 580px;
-    width: 68%;
+    height: 600px;
+    width: 72%;
     margin: 0 auto;
     //width: 108.7%;
   }
   .twitch{
-    height:500px;
+    height:544px;
     
-    width:68.5%;
+    width:70.5%;
   }
   .sidebar-module, .sidebar-module-twitter {
     margin-top: 50px;
@@ -190,10 +190,10 @@ h4 {
     width: 560px;
   }
   .video-description {
-    margin-top: 1rem;
+    margin-top: .2rem;
   }
   .chat_embed {
-    height: 500px;
+    height: 544px;
     min-width: 400px;
     vertical-align: center;
   }
@@ -261,17 +261,17 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .blog-post-title {
     margin-bottom: .25rem;
-    margin-top: 3rem;
+    margin-top: .5rem;
     font-size: 1.5rem;
 }
 
 .blog-post-meta {
-    margin-bottom: 1.25rem;
+    margin-bottom: .5rem;
     color: #999;
 }
 
